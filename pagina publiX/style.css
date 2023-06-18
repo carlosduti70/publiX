@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@media (max-width: 864px){
+
+    /* menu y barra lateral */
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+    }
+
+    .logo img{
+        width: 65px;
+        height: 65px;
+    }
+
+/* menu emergente */
+.menu-container {
+    position: relative;
+  }
+  
+  .menu-button {
+    background-color: #f1f1f1;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .menu-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-items li {
+    padding: 10px;
+  }
+  
+  .menu-items li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+/* titulos y parrafos */
+
+  h1{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  p{
+    margin: 15px;
+  }
+
+  .titulo_2 h1{
+    padding: 8px;
+    border: 0.5px solid black;
+  }
+
+  .container{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+  }
+
+  .container .objeto{
+    height: 35px;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .contamos{
+    display: flex;
+    padding: 15px;
+    border: 1px solid black;
+    justify-content: space-between;
+  }
+
+  .servicios{
+    margin: 15px;
+  }
+  .servicios p{
+    margin: 0;
+  }
+  .servicios .boton1{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .botones_fijos{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+  }
+
+  .botones_fijos a{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: wheat;
+    font-weight: bold;
+  }
+
+  .parte_4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .tarjeta{
+    text-align: center;
+    border: 1px solid black;
+    width: 75%;
+    height: 150px;
+    margin: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .tarjeta1{
+    text-align: center;
+    border: 1px solid black;
+    width: 75%;
+    margin: 15px;
+    border-radius: 15px;
+  }
+  .tarjeta2{
+    text-align: center;
+    border: 1px solid black;
+    width: 75%;
+    height: 80px;
+    margin: 15px;
+    border-radius: 15px;
+  }
+}
