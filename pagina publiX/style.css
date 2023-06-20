@@ -11,7 +11,16 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 15px;
+        padding: 15px;
+        position: fixed;
+        top: 0;
+        width: 95%;
+        border: 1px solid black;
+        /* background-color: bisque; */
+    }
+
+    .logo{
+      height: 65px;
     }
 
     .logo img{
@@ -20,39 +29,69 @@
     }
 
 /* menu emergente */
-.menu-container {
-    position: relative;
-  }
-  
-  .menu-button {
-    background-color: #f1f1f1;
-    border: none;
-    color: #333;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .menu-items {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #f1f1f1;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .menu-items li {
-    padding: 10px;
-  }
-  
-  .menu-items li a {
-    color: #333;
-    text-decoration: none;
-  }
 
+	.container .btn-menu label{
+		color: black;
+		font-size: 200px;
+		cursor: pointer;
+	}
+
+  #btn-menu{
+		display: none;
+	}
+	.container-menu{
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+		height: 100vh;
+		top: 0;right: 0;
+		transition: all 500ms ease;
+		opacity: 0;
+		visibility: hidden;
+	}
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+	}
+	.cont-menu{
+		width: 100%;
+		max-width: 250px;
+		background: #1c1c1c;
+		height: 100vh;
+		position: relative;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+	}
+	.cont-menu nav{
+		transform: translateY(15%);
+	}
+	.cont-menu nav a{
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #c7c7c7;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.cont-menu nav a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+	}
+	.cont-menu label{
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+	}
 /* titulos y parrafos */
-
+  .titulo_1{
+    margin-top: 115px;
+  }
   h1{
     text-align: center;
     font-size: 25px;
@@ -156,4 +195,14 @@
     margin: 15px;
     border-radius: 15px;
   }
+
+  footer{
+    background-color: blue;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: flex-end;
+  }
+
 }
