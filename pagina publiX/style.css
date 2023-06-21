@@ -318,3 +318,8 @@
   }
 }
 
+@media (min-width: 1024px){
+  .header{
+    background-color: var(--celeste);
+  }
+}
