@@ -35,7 +35,7 @@
         padding: 15px;
         position: fixed;
         top: 0;
-        width: 95%;
+        width: 100%;
     }
 
     .logo{
@@ -108,6 +108,33 @@
 		cursor: pointer;
 		font-size: 18px;
 	}
+
+  .cont-menu .numeros{
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: var(--azul);
+  }
+  .numeros .num1{
+    border-radius: 10px;
+    background-color: var(--celeste);
+    height: 50px;
+    width: 80%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .numeros h2{
+    margin: 15px;
+  }
 
 
 
@@ -571,10 +598,93 @@ footer{
 /* responsive para pc */
 
 @media(min-width: 1024px){
-  body{
-    display: grid;
-    grid-template-columns: 20% 80%;
+
+  header{
+    position: fixed;
+    height: 100vh;
+    width: 20%;
+    border-right: solid 1px var(--blanco);
   }
+  .cuerpo{
+    margin-left: 20%;
+  }
+  .logo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo img{
+    width: 95px;
+  }
+
+  /* menu lateral */
+  .btn-menu p{
+    display: none;
+  }
+  input{
+    display: none;
+  }
+  .container-lateral{
+    height: 100%;
+  }
+  .btn-menu{
+    height: 100%;
+  }
+  .cont-menu{
+    height: 100%;
+  }
+  .cont-menu nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont-menu nav a{
+    display: flex;
+    align-items: center;
+    border: solid 1px var(--blanco) ;
+    justify-content: center;
+    margin: 0.6vw;
+    width: 12vw;
+    height: 3.5vw;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2vw;
+  }
+  .cont-menu nav a:hover{
+		background: var(--azul);
+  }
+  
+  header .numeros{
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: var(--azul);
+  }
+  .numeros .num1{
+    border-radius: 10px;
+    background-color: var(--celeste);
+    height: 50px;
+    width: 80%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+  .numeros h2{
+    margin: 15px;
+  }
+  /* ---------------------- */
 
   .titulo_1 h1{
     font-size: 40px;
