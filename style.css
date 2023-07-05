@@ -285,7 +285,7 @@
   .parte_2 .objeto{
     height: 11rem;
     width: 50%;
-    background-color: var(--gris);
+    background-image: url(https://scontent.fcue3-1.fna.fbcdn.net/v/t1.18169-…a9Xec2-f3mhq0EOOb25s5Asp7zXBci3V2udcg&oe=64CC55BD);
     border-radius: 10px;
   }
   .camp {
@@ -541,8 +541,11 @@ p{
 .parte_2 .objeto{
   height: 11rem;
   width: 50%;
-  background-color: var(--gris);
+  background-image: url(https://scontent.fcue2-1.fna.fbcdn.net/v/t39.30808-6/320848492_892502181752198_7671008495928137878_n.png?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=lIqBSA0j1ZEAX-cB1Zq&_nc_ht=scontent.fcue2-1.fna&oh=00_AfDVjut5KUpCDZaUhLWERSHVtZ1IiMACH0sg2m2P-yYPZw&oe=64AA4C5C);
   border-radius: 10px;
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-size: cover;
 }
 
 .parte_3{
@@ -647,6 +650,9 @@ footer{
   }
   p{
     font-size: 1.5rem;
+  }
+  h2{
+    font-size: 2rem;
   }
   .cuerpo{
     margin-left: 20%;
