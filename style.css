@@ -582,6 +582,23 @@ p{
   border-radius: 15px;
 }
 
+.tarjeta4{
+  text-align: center;
+  background-color: var(--gris_oscuro);
+  width: 25%;
+  height: 120px;
+  margin: 15px;
+  border-radius: 15px;
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-image: url(https://seeklogo.com/images/S/SUDAMERICANO-logo-E0127688A1-seeklogo.com.gif) ;
+}
+
+
+
+
+
 footer{
   background-color: blue;
   height: 20px;
