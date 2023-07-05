@@ -731,10 +731,14 @@ footer{
     padding-left: 0;
   }
   .servicios .objeto{
-    width: 20vw;
-    height: 20vw;
+    width: 27vw;
+    height: 27vw;
     border-radius: 10px;
-    background-color: var(--gris);
+    background-color: var(--blanco);
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-image: url(https://scontent.fcue3-1.fna.fbcdn.net/v/t1.18169-9/11179963_681693908625750_3613144941408014248_n.jpg?_nc_cat=107&cb=99be929b-59f725be&ccb=1-7&_nc_sid=de6eea&_nc_eui2=AeHfrP0whmGp9VY792rarBfkitge3i1t2D2K2B7eLW3YPXD2uu5WPDNHjdxEWjmFrqPMIYxr_TjByHPypIGxxUGP&_nc_ohc=NFHeZ9DWKLAAX-6woFa&_nc_ht=scontent.fcue3-1.fna&oh=00_AfAeFzDp9a9Xec2-f3mhq0EOOb25s5Asp7zXBci3V2udcg&oe=64CC55BD);
   }
 
   .camp{
@@ -744,10 +748,14 @@ footer{
     flex-direction: row-reverse;
   }
   .camp .objeto{
-    width: 20vw;
-    height: 20vw;
+    width: 27vw;
+    height: 27vw;
     border-radius: 10px;
     background-color: var(--gris);
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-image: url(https://scontent.fcue3-1.fna.fbcdn.net/v/t39.30808-6/320848492_892502181752198_7671008495928137878_n.png?_nc_cat=103&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHuX0TlZm0KrrFHGIuqM7j2wRZOqk45UqbBFk6qTjlSpq1NLZaPVzaWtjd7EYKDAiRFAlpwZsrctY6DwtMew7wN&_nc_ohc=_Gr9pXLGZgwAX8q5LKR&_nc_ht=scontent.fcue3-1.fna&oh=00_AfDytt9vGLhKGxvJIlMBxuUih4E85HwitqNW1Erz76mlTA&oe=64AA4C5C);
   }
   .equip{
     display: grid;
@@ -760,6 +768,10 @@ footer{
     height: 27vw;
     border-radius: 10px;
     background-color: var(--gris);
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-image: url(https://scontent.fcue3-1.fna.fbcdn.net/v/t1.6435-9/126029878_3318191988309249_7858115468318737280_n.jpg?_nc_cat=100&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE5bRvh7dQsuA43G801exVMdJGPhsPvpTh0kY-Gw--lOE0M7ZYjSbQQ_hqqX_9nkDA0l-ks3xMQ6iNU7uoe1ubV&_nc_ohc=XIcDvlDFeIQAX9B0j5U&_nc_ht=scontent.fcue3-1.fna&oh=00_AfAi-dU-JEyVMtHqSpyYFavDH5OS0eZFKjArgUNEE8bnvg&oe=64CC5644);
   }
   .trabajar{
     display: flex;
@@ -810,6 +822,6 @@ footer{
     width: 70%;
   }
   .parrafo .text_extra{
-    color: var(--negro);
+    color: var(--negro¡¡);
   }
 }
