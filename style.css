@@ -187,10 +187,11 @@
     animation: scroll 30s linear infinite;
     -webkit-animation: scroll 30s linear infinite;
     max-width: 100vh;
-    width: calc(500px * 10);
+    width: calc(2000px * 10);
   }
   .slider .slide{
-    width: 75px;
+    width: 100px;
+    margin-left: 0.5%;
   }
   .slider .slide img{
     width: 100%;
@@ -447,6 +448,7 @@ p{
 }
 .slider .slide{
   width: 75px;
+  margin-left: 0.5%;
 }
 .slider .slide img{
   width: 100%;
