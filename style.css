@@ -184,8 +184,8 @@
   .slider .slide-track{
     display: flex;
     align-items: center;
-    animation: scroll 30s linear infinite;
-    -webkit-animation: scroll 30s linear infinite;
+    animation: scroll 3s linear infinite;
+    -webkit-animation: scroll 3s linear infinite;
     max-width: 100vh;
     width: calc(2000px * 10);
   }
